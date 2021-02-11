@@ -6,14 +6,12 @@ import 'package:movies_flatter_app/ui/movie_page.dart';
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-        home: Scaffold(
+    return Scaffold(
       appBar: AppBar(title: Text("Movies list")),
       body: Container(
         child: MoviesList(),
       ),
-    ));
+    );
   }
 }
 
